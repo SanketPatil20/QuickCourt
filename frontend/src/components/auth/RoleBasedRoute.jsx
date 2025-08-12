@@ -12,7 +12,6 @@ const RoleBasedRoute = ({ children, allowedRoles }) => {
       </div>
     )
   }
-
   if (!isAuthenticated) {
     return <Navigate to="/login" replace />
   }
