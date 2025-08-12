@@ -9,7 +9,6 @@ import {
   CheckCircleIcon,
   XCircleIcon
 } from '@heroicons/react/24/outline'
-
 const PendingCourts = () => {
   const dispatch = useDispatch()
   const { pendingCourts, isLoading } = useSelector((state) => state.admin)
