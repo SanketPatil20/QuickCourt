@@ -15,7 +15,6 @@ import {
   PhoneIcon,
   EnvelopeIcon
 } from '@heroicons/react/24/outline'
-
 const BookingDetails = () => {
   const { id } = useParams()
   const navigate = useNavigate()
