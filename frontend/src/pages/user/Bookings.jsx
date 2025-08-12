@@ -42,7 +42,6 @@ const UserBookings = () => {
         return 'bg-gray-100 text-gray-800'
     }
   }
-
   const getStatusIcon = (status) => {
     switch (status) {
       case 'confirmed':
