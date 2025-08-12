@@ -10,7 +10,6 @@ const AdminFacilities = () => {
     </div>
   )
 }
-
 export default AdminFacilities
 
 
