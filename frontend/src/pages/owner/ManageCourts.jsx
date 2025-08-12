@@ -15,7 +15,6 @@ import {
   Calendar,
   AlertTriangle
 } from 'lucide-react'
-
 const ManageCourts = () => {
   const { id: facilityId } = useParams()
   const navigate = useNavigate()
