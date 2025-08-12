@@ -9,7 +9,6 @@ import LoadingSpinner from '../../components/ui/LoadingSpinner'
 const Register = () => {
   const [showPassword, setShowPassword] = useState(false)
   const [showConfirmPassword, setShowConfirmPassword] = useState(false)
-  
   const dispatch = useDispatch()
   const navigate = useNavigate()
   
