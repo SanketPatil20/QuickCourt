@@ -15,7 +15,7 @@ const PaymentPage = () => {
   const navigate = useNavigate()
   const location = useLocation()
   const dispatch = useDispatch()
-  
+
   const { currentBooking: booking, isLoading } = useSelector((state) => state.bookings)
   
   // Get booking from location state as fallback
