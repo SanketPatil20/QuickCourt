@@ -18,7 +18,6 @@ const UserDashboard = () => {
   const { user } = useSelector((state) => state.auth)
   const { stats, bookings, isLoading } = useSelector((state) => state.user)
   const { popularFacilities } = useSelector((state) => state.facilities)
-
   useEffect(() => {
     dispatch(fetchUserBookingsWithStats({ limit: 5 }))
     dispatch(fetchPopularFacilities())
