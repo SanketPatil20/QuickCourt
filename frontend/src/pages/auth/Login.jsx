@@ -5,7 +5,6 @@ import { useForm } from 'react-hook-form'
 import { login, clearError } from '../../redux/slices/authSlice'
 import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/outline'
 import LoadingSpinner from '../../components/ui/LoadingSpinner'
-
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false)
   const dispatch = useDispatch()
