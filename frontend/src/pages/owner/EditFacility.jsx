@@ -10,7 +10,6 @@ const EditFacility = () => {
     </div>
   )
 }
-
 export default EditFacility
 
 
