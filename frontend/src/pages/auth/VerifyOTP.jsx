@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import { verifyOTP, resendOTP, clearError } from '../../redux/slices/authSlice'
 import LoadingSpinner from '../../components/ui/LoadingSpinner'
 import { toast } from 'react-hot-toast'
-
 const VerifyOTP = () => {
   const [otp, setOtp] = useState(['', '', '', '', '', ''])
   const [countdown, setCountdown] = useState(60)
