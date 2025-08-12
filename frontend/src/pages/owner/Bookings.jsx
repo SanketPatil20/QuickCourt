@@ -16,7 +16,6 @@ import {
   DollarSign,
   MoreVertical
 } from 'lucide-react'
-
 const Bookings = () => {
   const { user } = useSelector((state) => state.auth)
   
