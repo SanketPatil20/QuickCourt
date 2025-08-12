@@ -12,7 +12,6 @@ import {
   ArrowLeftIcon,
   CheckIcon
 } from '@heroicons/react/24/outline'
-
 const CreateBooking = () => {
   const { facilityId, courtId } = useParams()
   const navigate = useNavigate()
