@@ -10,7 +10,6 @@ const FacilityApproval = () => {
     </div>
   )
 }
-
 export default FacilityApproval
 
 
