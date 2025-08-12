@@ -12,7 +12,6 @@ import {
   Clock,
   Users
 } from 'lucide-react'
-
 const CreateFacility = () => {
   const navigate = useNavigate()
   const dispatch = useDispatch()
