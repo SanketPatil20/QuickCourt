@@ -7,7 +7,6 @@ import {
   StarIcon,
   ArrowRightIcon
 } from '@heroicons/react/24/outline'
-
 const Home = () => {
   const { isAuthenticated, user } = useSelector((state) => state.auth)
 
