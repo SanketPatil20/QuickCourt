@@ -7,8 +7,7 @@ const About = () => {
           <p className="text-xl text-gray-600">
             Revolutionizing sports facility booking across India
           </p>
-        </div>
-        
+        </div>    
         <div className="prose prose-lg mx-auto">
           <p>
             QuickCourt is India's leading sports facility booking platform, connecting sports 
