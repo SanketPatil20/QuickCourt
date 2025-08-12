@@ -11,7 +11,6 @@ import {
   ChevronDownIcon,
   BuildingOfficeIcon
 } from '@heroicons/react/24/outline'
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [isProfileOpen, setIsProfileOpen] = useState(false)
