@@ -184,13 +184,13 @@ QuickCourt/
 ### MongoDB
 Make sure MongoDB is running locally or update the `MONGODB_URI` in your `.env` file.
 
-### Cloudinary (Optional)
+### Cloudinary 
 For image uploads, create a Cloudinary account and add your credentials to the `.env` file.
 
-### Razorpay (Optional)
+### Razorpay 
 For payment processing, create a Razorpay account and add your test credentials to the `.env` file.
 
-### Email (Optional)
+### Email 
 For email notifications, configure your email service credentials in the `.env` file.
 
 ## 🧪 Testing
@@ -217,15 +217,11 @@ npm test
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+## 👨‍💻 Contributors
 
 **Sanket Patil**
 - GitHub: [@SanketPatil20](https://github.com/SanketPatil20)
+**Gourav Chouhan**
+- GitHub: [@GouravChouhan21](https://github.com/GouravChouhan21)
 
-## 🙏 Acknowledgments
-
-- React and Node.js communities
-- MongoDB for the database
-- Cloudinary for image storage
-- Razorpay for payment processing
 
