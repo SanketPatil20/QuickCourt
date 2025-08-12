@@ -22,7 +22,6 @@ const Profile = () => {
       setActiveTab('bookings')
     }
   }, [searchParams])
-
   // Fetch bookings when component mounts or when bookings tab is active
   useEffect(() => {
     if (activeTab === 'bookings') {
