@@ -27,7 +27,6 @@ A full-stack web application for booking sports facilities and courts. Built wit
 - **Multer** - File uploads
 - **Cloudinary** - Image storage
 - **Razorpay** - Payment gateway
-- **Nodemailer** - Email service
 
 ### Frontend
 - **React** - UI library
