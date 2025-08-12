@@ -16,7 +16,6 @@ const FacilityBooking = () => {
   const dispatch = useDispatch()
   
   const { currentFacility: facility, isLoading } = useSelector((state) => state.facilities)
-
   useEffect(() => {
     if (id) {
       dispatch(fetchFacility(id))
