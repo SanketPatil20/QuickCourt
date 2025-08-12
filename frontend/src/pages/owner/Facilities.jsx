@@ -14,7 +14,6 @@ import {
   MoreVertical,
   Settings
 } from 'lucide-react'
-
 const Facilities = () => {
   const dispatch = useDispatch();
   const { user } = useSelector((state) => state.auth);
